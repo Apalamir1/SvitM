@@ -8,8 +8,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(0, 102, 153);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color: rgb(96, 176, 140);
+  color: rgb(255, 255, 255);
+  color: rgb(0, 102, 153);
+  text-decoration: none;
 }
