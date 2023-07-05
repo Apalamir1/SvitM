@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/SvitM/static/css/main.26fe0bc8.css",
+    "main.js": "/SvitM/static/js/main.099d4822.js",
+    "static/js/304.f78cb94f.chunk.js": "/SvitM/static/js/304.f78cb94f.chunk.js",
+    "static/media/Logo.svg": "/SvitM/static/media/Logo.bac51eb9f7e435bbe74c8acbd9a60908.svg",
+    "index.html": "/SvitM/index.html",
+    "static/media/search.svg": "/SvitM/static/media/search.35e7be84db0fca9cc0a6a8127923c801.svg",
+    "static/media/mail.svg": "/SvitM/static/media/mail.d2ce9e72e2c79afb4f2083da2fd27b85.svg",
+    "static/media/phone.svg": "/SvitM/static/media/phone.56bccafc1c0a09a8384ad3de62f8f281.svg",
+    "main.26fe0bc8.css.map": "/SvitM/static/css/main.26fe0bc8.css.map",
+    "main.099d4822.js.map": "/SvitM/static/js/main.099d4822.js.map",
+    "304.f78cb94f.chunk.js.map": "/SvitM/static/js/304.f78cb94f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26fe0bc8.css",
+    "static/js/main.099d4822.js"
+  ]
+}
