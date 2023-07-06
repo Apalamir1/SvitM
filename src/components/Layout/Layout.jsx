@@ -1,10 +1,13 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 // import { throttle } from 'lodash';
-import { ReactComponent as Logo } from '../Icon/Logo.svg';
-import { ReactComponent as Phone } from '../Icon/phone.svg';
-import { ReactComponent as Mail } from '../Icon/mail.svg';
-import { ReactComponent as Search } from '../Icon/search.svg';
+import { ReactComponent as Logo } from '../../Icon/Logo.svg';
+import { ReactComponent as Phone } from '../../Icon/phone.svg';
+import { ReactComponent as Mail } from '../../Icon/mail.svg';
+import { ReactComponent as Search } from '../../Icon/search.svg';
+import { ReactComponent as PB } from '../../Icon/pb.svg';
+import { ReactComponent as Master } from '../../Icon/master-card.svg';
+import { ReactComponent as Visa } from '../../Icon/visa.svg';
 
 import {
   Header,
@@ -111,6 +114,9 @@ export const Layout = () => {
             <StyledLink to="/contacts">Contacts</StyledLink>
           </li>
         </LinkContainer>
+        <PB width={60}></PB>
+        <Master width={60}></Master>
+        <Visa width={60}></Visa>
       </Footer>
       {/* <button class="scroll-btn">up</button> */}
     </>

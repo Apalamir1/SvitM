@@ -127,6 +127,7 @@ export const Menu = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 99;
 `;
 export const StyledLink = styled(NavLink)`
   margin-right: 10px;

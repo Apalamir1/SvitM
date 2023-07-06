@@ -10,13 +10,15 @@ export const Container = styled.main`
   padding: 0;
   background-color: rgb(255, 255, 255);
 `;
-export const Title = styled.h2`
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: rgb(0, 102, 153);
+export const FiltresContainer = styled.div`
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+`;
+
+export const Filter = styled.select`
+  border-box: none;
+  border: none;
 `;
 export const List = styled.ul`
   padding-left: 0px;
@@ -27,9 +29,9 @@ export const List = styled.ul`
 
   justify-content: centr;
 `;
-
 export const ListItem = styled.li`
   display: flex;
+  justify-content: centr;
   margin-left: 5px;
   margin-right: 5px;
   background-color: rgb(255, 255, 255);
@@ -47,7 +49,6 @@ export const ListItem = styled.li`
   :focus {
     color: #8f6f06;
   }
-
   ::before {
     display: flex;
     align-items: center;
@@ -55,8 +56,7 @@ export const ListItem = styled.li`
 `;
 export const ProductLink = styled(Link)`
   width: 100%;
-  display: flex;
-  flex-direction: column;
+
   justify-content: centr;
   align-items: center;
   padding: 5px 10px;
@@ -65,22 +65,9 @@ export const ProductLink = styled(Link)`
 `;
 export const Image = styled.img`
   padding: 5px 10px;
-  width: 300px;
-  border-radius: 12%;
-  object-fit: cover;
-  margin: 0, auto;
-  margin-bottom: 20px;
-`;
-export const LinkContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-export const InfoImage = styled.img`
-  padding: 5px 10px;
   width: 120px;
   height: 90px;
   border-radius: 12%;
   object-fit: cover;
   margin: 0, auto;
 `;
-export const Filter = styled.select``;
