@@ -1,33 +1,12 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 // import { throttle } from 'lodash';
-import { ReactComponent as Logo } from '../../Icon/Logo.svg';
-import { ReactComponent as Phone } from '../../Icon/phone.svg';
-import { ReactComponent as Mail } from '../../Icon/mail.svg';
-import { ReactComponent as Search } from '../../Icon/search.svg';
+import NavigationBar from '../Navigation/Navigation';
+import HeaderEl from '../Header/Header';
 import { ReactComponent as PB } from '../../Icon/pb.svg';
 import { ReactComponent as Master } from '../../Icon/master-card.svg';
 import { ReactComponent as Visa } from '../../Icon/visa.svg';
-
-import {
-  Header,
-  StyledLink,
-  Container,
-  Footer,
-  LogoLink,
-  Logotype,
-  SiteName,
-  SiteTagline,
-  SearchForm,
-  SearchInput,
-  SearchButtonSbmt,
-  LinkContainer,
-  Navigation,
-  Menu,
-  ContactContainer,
-  ContactLinkItem,
-  ContactLinkPart,
-} from './Layout.styled';
+import { StyledLink, Footer, LinkContainer, Menu } from './Layout.styled';
 
 export const Layout = () => {
   // const button = document.querySelector('.scroll-btn');
@@ -59,45 +38,13 @@ export const Layout = () => {
   // }
   return (
     <>
-      <Navigation>
-        <button type="button"> мова</button>
-      </Navigation>
-      <Container>
-        <Header>
-          <LogoLink to="/">
-            <Logo width={60} hanging={60} fill="rgb(0, 102, 153)"></Logo>
-            <Logotype>
-              <SiteName>Web-siteName</SiteName>
-              <SiteTagline>слоган</SiteTagline>
-            </Logotype>
-          </LogoLink>
-          <SearchForm>
-            <SearchInput type="text" placeholder="Пошук по сайту" />
-            <SearchButtonSbmt type="submit">
-              {' '}
-              <Search width={20} hanging={20} fill="rgb(0, 102, 153)"></Search>
-            </SearchButtonSbmt>
-          </SearchForm>
-          <ContactContainer>
-            <ContactLinkItem>
-              <ContactLinkPart href="mailto:info@devstudio.com">
-                <Mail width={20} hanging={20} fill="rgb(0, 102, 153)"></Mail>
-                info@devstudio.com
-              </ContactLinkPart>
-            </ContactLinkItem>
-            <ContactLinkItem>
-              <ContactLinkPart href="tel:+380961111111">
-                <Phone width={20} hanging={20} fill="rgb(0, 102, 153)"></Phone>
-                +38 096 111 11 11
-              </ContactLinkPart>
-            </ContactLinkItem>
-          </ContactContainer>
-        </Header>
-      </Container>
+      <NavigationBar></NavigationBar>
+      <HeaderEl></HeaderEl>
       <Menu>
-        <StyledLink to="/">Home</StyledLink>
-        <StyledLink to="/products">Products</StyledLink>
-        <StyledLink to="/faq">FAQ</StyledLink>
+        <StyledLink to="/products">Матраси</StyledLink>
+        <StyledLink to="/products">Супутні товари</StyledLink>
+        <StyledLink to="/technology">Технології</StyledLink>
+        <StyledLink to="/faq">Питпння та відповіді</StyledLink>
       </Menu>
       <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />
@@ -111,7 +58,10 @@ export const Layout = () => {
             <StyledLink to="/products">Products</StyledLink>
           </li>
           <li>
-            <StyledLink to="/contacts">Contacts</StyledLink>
+            <StyledLink to="/about">about</StyledLink>
+          </li>
+          <li>
+            <StyledLink to="/technology">technology</StyledLink>
           </li>
         </LinkContainer>
         <PB width={60}></PB>

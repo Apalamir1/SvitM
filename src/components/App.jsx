@@ -3,6 +3,8 @@ import { lazy } from 'react';
 import { Layout } from './Layout/Layout';
 const Home = lazy(() => import('../pages/Home/Home'));
 const Products = lazy(() => import('../pages/Products/Products'));
+const About = lazy(() => import('../pages/About/About'));
+const Technology = lazy(() => import('../pages/Technology/Technology'));
 
 const Bonel = lazy(() => import('./Bonel/Bonel'));
 const PocketSpring = lazy(() => import('./PocketSpring/PocketSpring'));
@@ -18,6 +20,8 @@ export const App = () => {
         <Route path="pocketSpring" element={<PocketSpring />} />
         <Route path="springless" element={<Springless />} />
         <Route path="futon" element={<Futon />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/technology" element={<Technology />} />
 
         <Route path="/products" element={<Products />} />
         <Route path="*" element={<Layout />} />

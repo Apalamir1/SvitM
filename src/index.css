@@ -8,8 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-ul,
-ol {
+ul {
   padding: 0;
   list-style: none;
 }
@@ -37,4 +36,6 @@ code {
   text-decoration: none;
   background-color: none;
   border: none;
+  font: bold;
+  display: flex;
 }
