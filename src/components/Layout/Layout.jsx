@@ -3,10 +3,8 @@ import { Outlet } from 'react-router-dom';
 // import { throttle } from 'lodash';
 import NavigationBar from '../Navigation/Navigation';
 import HeaderEl from '../Header/Header';
-import { ReactComponent as PB } from '../../Icon/pb.svg';
-import { ReactComponent as Master } from '../../Icon/master-card.svg';
-import { ReactComponent as Visa } from '../../Icon/visa.svg';
-import { StyledLink, Footer, LinkContainer, Menu } from './Layout.styled';
+import FooterBar from '../Footer/Footer';
+import { StyledLink, Menu } from './Layout.styled';
 
 export const Layout = () => {
   // const button = document.querySelector('.scroll-btn');
@@ -42,32 +40,13 @@ export const Layout = () => {
       <HeaderEl></HeaderEl>
       <Menu>
         <StyledLink to="/products">Матраси</StyledLink>
-        <StyledLink to="/products">Супутні товари</StyledLink>
         <StyledLink to="/technology">Технології</StyledLink>
         <StyledLink to="/faq">Питпння та відповіді</StyledLink>
       </Menu>
       <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />
       </Suspense>
-      <Footer>
-        <LinkContainer>
-          <li>
-            <StyledLink to="/">Home</StyledLink>
-          </li>
-          <li>
-            <StyledLink to="/products">Products</StyledLink>
-          </li>
-          <li>
-            <StyledLink to="/about">about</StyledLink>
-          </li>
-          <li>
-            <StyledLink to="/technology">technology</StyledLink>
-          </li>
-        </LinkContainer>
-        <PB width={60}></PB>
-        <Master width={60}></Master>
-        <Visa width={60}></Visa>
-      </Footer>
+      <FooterBar />
       {/* <button class="scroll-btn">up</button> */}
     </>
   );

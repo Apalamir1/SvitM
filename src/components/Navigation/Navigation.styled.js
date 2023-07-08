@@ -25,9 +25,4 @@ export const StyledLink = styled(NavLink)`
   :focus {
     color: rgb(128, 128, 128);
   }
-
-  &.active {
-    color: rgb(255, 255, 255);
-    border: 3px solid rgb(255, 255, 255);
-  }
 `;

@@ -1,3 +1,5 @@
+import ProdCard from '../../components/ProdCard/ProdCard';
+
 import {
   Container,
   List,
@@ -6,6 +8,7 @@ import {
   Image,
   Filter,
   FiltresContainer,
+  ProdSection,
 } from './Products.styled';
 
 export default function Products() {
@@ -71,6 +74,20 @@ export default function Products() {
           </ProductLink>
         </ListItem>
       </List>
+      <ProdSection>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+        <ProdCard></ProdCard>
+      </ProdSection>
     </Container>
   );
 }

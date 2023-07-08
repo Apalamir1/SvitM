@@ -71,3 +71,12 @@ export const Image = styled.img`
   object-fit: cover;
   margin: 0, auto;
 `;
+export const ProdSection = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+`;
