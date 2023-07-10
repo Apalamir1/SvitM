@@ -3,7 +3,6 @@ import { ReactComponent as Phone } from '../../Icon/phone.svg';
 import { ReactComponent as Search } from '../../Icon/search.svg';
 import {
   Container,
-  HeaderImg,
   Header,
   LogoLink,
   Logotype,
@@ -20,7 +19,6 @@ import {
 export default function HeaderEl() {
   return (
     <Container>
-      <HeaderImg />
       <Header>
         <LogoLink to="/">
           <Logo width={80} height={80} fill="rgb(0, 102, 153)" />
@@ -40,7 +38,7 @@ export default function HeaderEl() {
           <ContactLinkPart type="button">
             <Phone width={60} height={60} fill="rgb(0, 102, 153)" />
             <CallbackStyled>
-              <span>+38 096 111 11 11</span>
+              <span>+38 063 717 68 94</span>
               <span>замовити дзвінок</span>
             </CallbackStyled>
           </ContactLinkPart>

@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
+import { globalStyles } from '../components/Utilit/variables';
 import { Layout } from './Layout/Layout';
 const Home = lazy(() => import('../pages/Home/Home'));
 const Products = lazy(() => import('../pages/Products/Products'));

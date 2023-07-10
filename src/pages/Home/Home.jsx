@@ -11,7 +11,8 @@ export default function Home() {
     <Container>
       <Title>Хити продажу</Title>
       <HitSwiper></HitSwiper>
-
+      <Title>Акції</Title>
+      <HitSwiper></HitSwiper>
       <LinkContainer>
         <Link to="bonel" state={{ from: backPageLink }}>
           <InfoImage

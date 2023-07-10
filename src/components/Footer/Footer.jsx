@@ -12,9 +12,14 @@ import {
   PhoneLink,
 } from './Footer.styled';
 import { ReactComponent as Logo } from '../../Icon/Logo.svg';
-import { ReactComponent as Phone } from '../../Icon/phone.svg';
+import { ReactComponent as Kyivstar } from '../../Icon/Kyivstar.svg';
+import { ReactComponent as Lifecell } from '../../Icon/lifecell.svg';
+
+import { ReactComponent as Telegram } from '../../Icon/telegram.svg';
+import { ReactComponent as Instagram } from '../../Icon/instagram.svg';
 import { ReactComponent as Master } from '../../Icon/master-card.svg';
 import { ReactComponent as Visa } from '../../Icon/visa.svg';
+import { Link } from 'react-router-dom';
 export default function FooterBar() {
   return (
     <Bg>
@@ -56,10 +61,31 @@ export default function FooterBar() {
 
           <ContactInfo>
             <li>
-              <PhoneLink href="tel:+380961111111">
-                <Phone fill="rgb(255, 255, 255)" width={40} />
-                +38 096 111 11 11
+              <PhoneLink href="tel:+380637176894">
+                <Lifecell fill="rgb(255, 255, 255)" width={40} />
+                +38 063 717 68 94
               </PhoneLink>
+            </li>
+            <li>
+              <PhoneLink href="tel:+380973924381">
+                <Kyivstar width={80} />
+                +38 097 392 43 81
+              </PhoneLink>
+            </li>
+            <li>
+              <ul>
+                Ми в соціальних мережах:
+                <li>
+                  <a href="https://www.instagram.com/matras_off/">
+                    <Instagram />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/matrassoff">
+                    <Telegram />
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
               <Master width={60} />

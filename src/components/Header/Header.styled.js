@@ -1,6 +1,6 @@
-import styled from '@emotion/styled';
+import { css, styled } from '@emotion/styled';
 import { Link } from 'react-router-dom';
-import HeaderImage from '../../images/header.jpg';
+
 // ===========================================================================
 // web-container
 export const Container = styled.div`
@@ -24,15 +24,6 @@ export const Header = styled.header`
   gap: 12px;
   padding: 15px 0;
   margin-bottom: 10px;
-`;
-export const HeaderImg = styled.div`
-  position: absolute;
-  left: -1px;
-  z-index: -1;
-  height: 150px;
-  width: 100%;
-  background-image: url(${HeaderImage});
-  opacity: 0.3;
 `;
 export const LogoLink = styled(Link)`
   margin-left: 10px;
