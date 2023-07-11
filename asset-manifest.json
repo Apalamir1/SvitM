@@ -1,37 +1,19 @@
 {
   "files": {
-    "main.css": "/SvitM/static/css/main.aff39ebc.css",
-    "main.js": "/SvitM/static/js/main.140da271.js",
-    "static/css/829.c4de3b5d.chunk.css": "/SvitM/static/css/829.c4de3b5d.chunk.css",
-    "static/js/829.4f231814.chunk.js": "/SvitM/static/js/829.4f231814.chunk.js",
-    "static/js/63.849478dc.chunk.js": "/SvitM/static/js/63.849478dc.chunk.js",
-    "static/js/104.70c6d04b.chunk.js": "/SvitM/static/js/104.70c6d04b.chunk.js",
-    "static/js/907.d44c6ba7.chunk.js": "/SvitM/static/js/907.d44c6ba7.chunk.js",
-    "static/js/265.6b41f240.chunk.js": "/SvitM/static/js/265.6b41f240.chunk.js",
-    "static/js/782.af8df491.chunk.js": "/SvitM/static/js/782.af8df491.chunk.js",
-    "static/js/368.1242477e.chunk.js": "/SvitM/static/js/368.1242477e.chunk.js",
-    "static/js/865.6dc03cbd.chunk.js": "/SvitM/static/js/865.6dc03cbd.chunk.js",
-    "static/js/916.bd6f0e61.chunk.js": "/SvitM/static/js/916.bd6f0e61.chunk.js",
-    "static/media/header.jpg": "/SvitM/static/media/header.53fdd33a2c1208cb6dd1.jpg",
-    "static/media/Logo.svg": "/SvitM/static/media/Logo.bac51eb9f7e435bbe74c8acbd9a60908.svg",
-    "static/media/master-card.svg": "/SvitM/static/media/master-card.10b6b3ad43bd724cb63eebc18273b5cb.svg",
-    "static/media/visa.svg": "/SvitM/static/media/visa.78262ac8294b8f5f93db924dad00846f.svg",
+    "main.css": "/SvitM/static/css/main.a4c8f9c7.css",
+    "main.js": "/SvitM/static/js/main.a573238f.js",
+    "static/media/Logo.svg": "/SvitM/static/media/Logo.dab5680fb61c4969c2adb543bbeb6bc0.svg",
     "index.html": "/SvitM/index.html",
     "static/media/search.svg": "/SvitM/static/media/search.35e7be84db0fca9cc0a6a8127923c801.svg",
+    "static/media/info.svg": "/SvitM/static/media/info.82c32798d73196b0f6eed5276754d303.svg",
+    "static/media/x.svg": "/SvitM/static/media/x.abd680dc4843bf16333061eda444496a.svg",
     "static/media/phone.svg": "/SvitM/static/media/phone.56bccafc1c0a09a8384ad3de62f8f281.svg",
-    "main.aff39ebc.css.map": "/SvitM/static/css/main.aff39ebc.css.map",
-    "main.140da271.js.map": "/SvitM/static/js/main.140da271.js.map",
-    "829.c4de3b5d.chunk.css.map": "/SvitM/static/css/829.c4de3b5d.chunk.css.map",
-    "829.4f231814.chunk.js.map": "/SvitM/static/js/829.4f231814.chunk.js.map",
-    "63.849478dc.chunk.js.map": "/SvitM/static/js/63.849478dc.chunk.js.map",
-    "104.70c6d04b.chunk.js.map": "/SvitM/static/js/104.70c6d04b.chunk.js.map",
-    "907.d44c6ba7.chunk.js.map": "/SvitM/static/js/907.d44c6ba7.chunk.js.map",
-    "265.6b41f240.chunk.js.map": "/SvitM/static/js/265.6b41f240.chunk.js.map",
-    "782.af8df491.chunk.js.map": "/SvitM/static/js/782.af8df491.chunk.js.map",
-    "916.bd6f0e61.chunk.js.map": "/SvitM/static/js/916.bd6f0e61.chunk.js.map"
+    "static/media/menu.svg": "/SvitM/static/media/menu.03bd017439311a00c79ea9c3c5901739.svg",
+    "main.a4c8f9c7.css.map": "/SvitM/static/css/main.a4c8f9c7.css.map",
+    "main.a573238f.js.map": "/SvitM/static/js/main.a573238f.js.map"
   },
   "entrypoints": [
-    "static/css/main.aff39ebc.css",
-    "static/js/main.140da271.js"
+    "static/css/main.a4c8f9c7.css",
+    "static/js/main.a573238f.js"
   ]
 }
