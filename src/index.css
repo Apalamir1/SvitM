@@ -76,4 +76,8 @@ h6 {
   color: #ffffff;
   color: #3c6e71;
   color: #353535;
+  color: #229ed9;
+  border-bottom: solid 1px var(--font-color);
+  justify-content: center;
+  align-items: center;
 }

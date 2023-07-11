@@ -78,6 +78,7 @@ export const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding-top: 52px;
+  border-top: 8px solid var(--bg-color-accent);
   border-bottom: 8px solid var(--bg-color-accent);
 
   @media (min-width: 768px) {
@@ -264,4 +265,53 @@ export const ScrollBtn = styled.button`
   :hover {
     opacity: 1;
   }
+`;
+
+// ===========================================================================
+// footer
+export const Footer = styled.footer`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 16px;
+  gap: 12px;
+`;
+export const Bg = styled.div`
+  background-color: rgb(34, 87, 122);
+  width: 100%;
+`;
+export const FtrMob = styled.div``;
+export const FtrDesctop = styled.div`
+  display: none;
+  @media (min-width: 1200px) {
+    display: block;
+  }
+`;
+
+export const LinkContainer = styled.ul`
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+`;
+export const ContactInfo = styled.ul`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+`;
+
+export const PhoneLink = styled(NavLink)`
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
 `;
