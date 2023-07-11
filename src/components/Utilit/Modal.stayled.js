@@ -1,14 +1,24 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
-// ==========================================================================
-// Navigation
-export const Navigation = styled.nav`
+export const Modal = styled.div`
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  background-color: var(--background-color);
+
   width: 100%;
-  background-color: rgb(0, 102, 153);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  height: 100%;
+`;
+export const CloseBtn = styled.button`
+  position: absolute;
+
+  top: 10px;
+  right: 10px;
+  background-color: var(--background-color);
+  border: none;
+  fill: var(--focus-color);
 `;
 export const StyledLink = styled(NavLink)`
   height: 100%;

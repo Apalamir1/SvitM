@@ -1,21 +1,57 @@
-import { css, styled } from '@emotion/styled';
-import { Link } from 'react-router-dom';
+import styled from '@emotion/styled';
+import { NavLink, Link } from 'react-router-dom';
+
+// ==========================================================================
+// Navigation
+export const Navigation = styled.nav`
+  width: 100%;
+  background-color: rgb(0, 102, 153);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+`;
+export const StyledLink = styled(NavLink)`
+  height: 100%;
+  margin-right: 10px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Courier New, monospace;
+
+  :hover,
+  :focus {
+    color: rgb(128, 128, 128);
+  }
+`;
 
 // ===========================================================================
 // web-container
 export const Container = styled.div`
-  max-width: 1200px;
-
+  background-color: #fff;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   padding: 0;
+
+  @media (min-width: 768px) {
+    background-color: #000;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    background-color: rgb(0, 102, 153);
+  }
 `;
 
 // =========================================================================
 // header
 export const Header = styled.header`
+  background-color: #fff;
+
   width: 100%;
   height: 110px;
   display: flex;
@@ -110,4 +146,59 @@ export const CallbackStyled = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+`;
+
+// ==========================================================================
+// Top menu
+export const Menu = styled.div`
+  position: sticky;
+  top: -1px;
+  margin: 0;
+
+  background-color: rgb(0, 102, 153);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 99;
+`;
+
+// ===========================================================================
+// footer
+export const Footer = styled.footer`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 16px;
+  gap: 12px;
+`;
+export const Bg = styled.div`
+  background-color: rgb(34, 87, 122);
+  width: 100%;
+`;
+export const LinkContainer = styled.ul`
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+`;
+export const ContactInfo = styled.ul`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+`;
+
+export const PhoneLink = styled(NavLink)`
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
 `;
