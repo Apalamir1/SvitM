@@ -142,52 +142,7 @@ export const Layout = () => {
       <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />
       </Suspense>
-      <div>
-        <article>
-          I am a Front-End developer looking for a full-time position in a
-          company that's aimed at making both everyday life and business easier,
-          more productive and user-friendly. I have basic knowledge of HTML,
-          CSS, JavaScript, React and Node. I'm a hardworking and responsible
-          person.I am a fast learner and ready for difficult tasks. Contacts:
-          Phone: +380661162768 Email: o.zaitsev.work@gmail.com I am a Front-End
-          developer looking for a full-time position in a company that's aimed
-          at making both everyday life and business easier, more productive and
-          user-friendly. I have basic knowledge of HTML, CSS, JavaScript, React
-          and Node. I'm a hardworking and responsible person.I am a fast learner
-          and ready for difficult tasks. Contacts: Phone: +380661162768 Email:
-          o.zaitsev.work@gmail.com I am a Front-End developer looking for a
-          full-time position in a company that's aimed at making both everyday
-          life and business easier, more productive and user-friendly. I have
-          basic knowledge of HTML, CSS, JavaScript, React and Node. I'm a
-          hardworking and responsible person.I am a fast learner and ready for
-          difficult tasks. Contacts: Phone: +380661162768 Email:
-          o.zaitsev.work@gmail.com I am a Front-End developer looking for a
-          full-time position in a company that's aimed at making both everyday
-          life and business easier, more productive and user-friendly. I have
-          basic knowledge of HTML, CSS, JavaScript, React and Node. I'm a
-          hardworking and responsible person.I am a fast learner and ready for
-          difficult tasks. Contacts: Phone: +380661162768 Email:
-          o.zaitsev.work@gmail.com I am a Front-End developer looking for a
-          full-time position in a company that's aimed at making both everyday
-          life and business easier, more productive and user-friendly. I have
-          basic knowledge of HTML, CSS, JavaScript, React and Node. I'm a
-          hardworking and responsible person.I am a fast learner and ready for
-          difficult tasks. Contacts: Phone: +380661162768 Email:
-          o.zaitsev.work@gmail.com I am a Front-End developer looking for a
-          full-time position in a company that's aimed at making both everyday
-          life and business easier, more productive and user-friendly. I have
-          basic knowledge of HTML, CSS, JavaScript, React and Node. I'm a
-          hardworking and responsible person.I am a fast learner and ready for
-          difficult tasks. Contacts: Phone: +380661162768 Email:
-          o.zaitsev.work@gmail.com I am a Front-End developer looking for a
-          full-time position in a company that's aimed at making both everyday
-          life and business easier, more productive and user-friendly. I have
-          basic knowledge of HTML, CSS, JavaScript, React and Node. I'm a
-          hardworking and responsible person.I am a fast learner and ready for
-          difficult tasks. Contacts: Phone: +380661162768 Email:
-          o.zaitsev.work@gmail.com
-        </article>
-      </div>
+
       <Bg>
         <Container>
           <Footer>

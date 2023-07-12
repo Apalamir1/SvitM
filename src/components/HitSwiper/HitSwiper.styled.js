@@ -20,15 +20,14 @@ export const ListItem = styled.li`
   display: flex;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--background-color);
   margin-top: 10px;
   padding: 2px;
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Segoe UI';
-  border: 1px solid rgb(0, 102, 153);
+  border: 1px solid var(--main-color);
   border-radius: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   :hover,

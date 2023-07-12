@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import { Global } from '@emotion/react';
-// import { lazy } from 'react';
+import { lazy } from 'react';
 import { Layout } from './Layout/Layout';
-// const Home = lazy(() => import('../pages/Home/Home'));
+const Home = lazy(() => import('../pages/Home/Home'));
 // const Products = lazy(() => import('../pages/Products/Products'));
 // const About = lazy(() => import('../pages/About/About'));
 // const Technology = lazy(() => import('../pages/Technology/Technology'));
@@ -52,8 +52,8 @@ select {
       <Global styles={globalStyles} />
       <Routes>
         <Route path="/" element={<Layout />}>
-          {/* <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
+          <Route index element={<Home />} />
+          {/* <Route path="/about" element={<About />} />
         <Route path="/technology" element={<Technology />} />
 
         <Route path="/products" element={<Products />} /> */}

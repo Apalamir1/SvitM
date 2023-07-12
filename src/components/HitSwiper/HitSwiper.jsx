@@ -9,14 +9,33 @@ import 'swiper/css/pagination';
 export function HitSwiper() {
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, A11y, Autoplay]}
-      spaceBetween={50}
-      slidesPerView={3}
+      spaceBetween={5}
+      slidesPerView={1}
       loop={true}
       autoplay={{
-        delay: 5000,
-        disableOnInteraction: false,
+        delay: 2000,
+        pauseOnMouseEnter: true,
+        disableOnInteraction: true,
+      }}
+      breakpoints={{
+        300: {
+          slidesPerView: 1,
+          spaceBetween: 5,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          autoplay: {
+            delay: 5000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          },
+        },
       }}
       navigation
       pagination={{ clickable: true }}

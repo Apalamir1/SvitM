@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const Modal = styled.div`
-  position: absolute;
-
+  position: fixed;
+  z-index: 999;
   top: 0;
   left: 0;
   background-color: var(--background-color);

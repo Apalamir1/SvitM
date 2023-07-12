@@ -81,3 +81,15 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+.palet2Visit {
+  --main-color: #26f2f9;
+  --focus-color: #333333;
+  --bg-color-accent: #38c2c9;
+  --background-color: #d9d9d9;
+
+  --font-color: #353535;
+  --white-element: #ffffff;
+  --black-element: #000;
+  --button-bg: #d9d9d9;
+  --link-color: #afb1b8;
+}
