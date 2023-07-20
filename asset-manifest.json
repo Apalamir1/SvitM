@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/SvitM/static/css/main.868e87ff.css",
-    "main.js": "/SvitM/static/js/main.16f06ab1.js",
+    "main.css": "/SvitM/static/css/main.fbf11fb1.css",
+    "main.js": "/SvitM/static/js/main.5710089d.js",
+    "static/css/245.883b52ab.chunk.css": "/SvitM/static/css/245.883b52ab.chunk.css",
+    "static/js/245.b7baf37f.chunk.js": "/SvitM/static/js/245.b7baf37f.chunk.js",
+    "static/js/916.bd6f0e61.chunk.js": "/SvitM/static/js/916.bd6f0e61.chunk.js",
     "static/media/Logo.svg": "/SvitM/static/media/Logo.dab5680fb61c4969c2adb543bbeb6bc0.svg",
     "static/media/master-card.svg": "/SvitM/static/media/master-card.10b6b3ad43bd724cb63eebc18273b5cb.svg",
     "static/media/instagram.svg": "/SvitM/static/media/instagram.a93b56608666b50b148758a3660a09a2.svg",
@@ -17,11 +20,14 @@
     "static/media/mobile.svg": "/SvitM/static/media/mobile.61f2c8309d0799e00d90c30a946324a2.svg",
     "static/media/oldphone.svg": "/SvitM/static/media/oldphone.6477db59039ff2bb8e889f9a9a065065.svg",
     "static/media/menu.svg": "/SvitM/static/media/menu.03bd017439311a00c79ea9c3c5901739.svg",
-    "main.868e87ff.css.map": "/SvitM/static/css/main.868e87ff.css.map",
-    "main.16f06ab1.js.map": "/SvitM/static/js/main.16f06ab1.js.map"
+    "main.fbf11fb1.css.map": "/SvitM/static/css/main.fbf11fb1.css.map",
+    "main.5710089d.js.map": "/SvitM/static/js/main.5710089d.js.map",
+    "245.883b52ab.chunk.css.map": "/SvitM/static/css/245.883b52ab.chunk.css.map",
+    "245.b7baf37f.chunk.js.map": "/SvitM/static/js/245.b7baf37f.chunk.js.map",
+    "916.bd6f0e61.chunk.js.map": "/SvitM/static/js/916.bd6f0e61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.868e87ff.css",
-    "static/js/main.16f06ab1.js"
+    "static/css/main.fbf11fb1.css",
+    "static/js/main.5710089d.js"
   ]
 }
