@@ -93,6 +93,7 @@ export const Layout = () => {
           <MobileMenuBtn onClick={handleOpenInfoModal}>
             <Info />
           </MobileMenuBtn>
+          <SiteName>MATRASOFF</SiteName>
           <MobileMenuBtn onClick={handleOpenProductsModal}>
             <Menu />
           </MobileMenuBtn>
@@ -112,7 +113,7 @@ export const Layout = () => {
           <LogoLink to="/">
             <Logo />
             <Logotype>
-              <SiteName>Matras_off</SiteName>
+              <SiteName>MATRASOFF</SiteName>
               <SiteTagline>Товари для зрорового сну</SiteTagline>
             </Logotype>
           </LogoLink>

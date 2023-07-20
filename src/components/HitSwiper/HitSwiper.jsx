@@ -1,10 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
-import { ListItem, Image, ProductLink, Filter } from './HitSwiper.styled';
+import { ListItem, Image, ProductLink, Filter, Btn } from './HitSwiper.styled';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import './custom-swiper-styles.css';
 
 export function HitSwiper() {
   return (
@@ -14,7 +15,7 @@ export function HitSwiper() {
       slidesPerView={1}
       loop={true}
       autoplay={{
-        delay: 2000,
+        delay: 10000,
         pauseOnMouseEnter: true,
         disableOnInteraction: true,
       }}
@@ -31,7 +32,7 @@ export function HitSwiper() {
           slidesPerView: 3,
           spaceBetween: 30,
           autoplay: {
-            delay: 5000,
+            delay: 10000,
             pauseOnMouseEnter: true,
             disableOnInteraction: false,
           },
@@ -71,7 +72,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -103,7 +104,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -135,7 +136,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -167,7 +168,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -199,7 +200,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -231,7 +232,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -263,7 +264,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -295,7 +296,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -327,7 +328,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>
@@ -359,7 +360,7 @@ export function HitSwiper() {
               <li>якісь характеристики</li>
             </ul>
             <h2>Ціна</h2>
-            <button type="button">Замовити </button>
+            <Btn type="button">Замовити </Btn>
           </ProductLink>
         </ListItem>
       </SwiperSlide>

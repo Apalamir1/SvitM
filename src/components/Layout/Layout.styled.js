@@ -6,6 +6,8 @@ export const Navigation = styled.nav`
   width: 100%;
   background-color: var(--bg-color-accent);
   position: fixed;
+  z-index: 99;
+
   top: 0;
   left: 0;
   @media (min-width: 768px) {
@@ -62,7 +64,6 @@ export const StyledLink = styled(NavLink)`
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 14px;
-  font-family: Courier New, monospace;
 
   :hover,
   :focus {
@@ -130,6 +131,8 @@ export const Logotype = styled.div`
   padding-left: 10px;
 `;
 export const SiteName = styled.h4`
+  display: flex;
+  align-items: center;
   color: var(--focus-color);
 
   margin-top: 0;
@@ -245,6 +248,7 @@ export const TopMenu = styled.div`
 // ScrollButton
 export const ScrollBtn = styled.button`
   position: fixed;
+  z-index: 99;
   bottom: 20px;
   right: 20px;
   width: 40px;

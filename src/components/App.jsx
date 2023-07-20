@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Global } from '@emotion/react';
+import Fonts from './Utilit/Fonts';
 import { lazy } from 'react';
 import { Layout } from './Layout/Layout';
 const Home = lazy(() => import('../pages/Home/Home'));
@@ -29,9 +30,9 @@ export const App = () => {
 
     body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -50,6 +51,7 @@ select {
   return (
     <>
       <Global styles={globalStyles} />
+      <Fonts />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

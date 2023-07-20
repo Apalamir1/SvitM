@@ -13,6 +13,7 @@ export const globalStyles = css`
     --link-color: #afb1b8;
   }
 `;
+
 // :root {
 //   --main-color: #696d7d;
 //   --focus-color: #68b0ab;

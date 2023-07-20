@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.main`
   max-width: 1200px;
@@ -7,7 +8,7 @@ export const Container = styled.main`
   margin-right: auto;
   margin-left: auto;
   padding: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--background-color);
 `;
 export const Title = styled.h2`
   text-transform: uppercase;
@@ -15,12 +16,20 @@ export const Title = styled.h2`
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 15px;
-  color: rgb(0, 102, 153);
+  padding-top: 20px;
+  margin-top: 0;
+  color: var(--main-color);
 `;
 
 export const LinkContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 export const InfoImage = styled.img`
   padding: 5px 10px;
@@ -31,3 +40,15 @@ export const InfoImage = styled.img`
   margin: 0, auto;
 `;
 export const Filter = styled.select``;
+export const Category = styled.h3`
+  color: var(--main-color);
+`;
+export const Subcategory = styled(Link)`
+  display: flex;
+    flex-direction: column;
+
+  text-decoration: none;
+  color:var(--main-color)
+  justify-content: center;
+  align-items: center;
+`;

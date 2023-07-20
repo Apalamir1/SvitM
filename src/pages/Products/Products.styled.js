@@ -39,7 +39,6 @@ export const ListItem = styled.li`
   padding: 2px;
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Segoe UI';
   border: 1px solid rgb(0, 102, 153);
   border-radius: 4px;
   margin-bottom: 5px;

@@ -2,16 +2,26 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
 export const Btn = styled.button`
-  background-color: #fff;
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+
+  background-color: var(--main-color);
   border: none;
 `;
-export const Filter = styled.select``;
+export const Filter = styled.select`
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: var(--background-color);
+`;
 export const List = styled.ul`
   padding-left: 0px;
 
   display: flex;
   width: 100%;
-  heigth: 100%;
+  height: 100%;
 
   justify-content: centr;
 `;
